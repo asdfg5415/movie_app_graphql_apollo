@@ -1,7 +1,7 @@
 import ApolloCilent from "apollo-boost";
 
 const client = new ApolloCilent({
-  uri: "httops://movieql.now.sh",
+  uri: "http://localhost:4000/",
 });
 
 export default client;
